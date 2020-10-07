@@ -16,4 +16,8 @@ Expected output: 4
 Can you implement a solution that finds the single number in _one_ pass through the input array with `O(1)` space complexity?
 
 ## Testing
-Run the test file by executing `python test_single_number.py`. 
+Run the test file by executing `python test_single_number.py`.
+
+## for numbers in an array
+##if number does not equal any other number in array
+##print that number

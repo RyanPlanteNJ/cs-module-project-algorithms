@@ -4,8 +4,10 @@ Returns: an integer
 '''
 def single_number(arr):
     # Your code here
-
-    pass
+    pivot = arr[0]
+    for i in range(1,len(arr)):
+        pivot = pivot ^ arr[i]
+    return pivot
 
 
 if __name__ == '__main__':
